@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    margin: 20px 0;
+}
+
+/* Search box */
+.search-box {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Movie Card */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-card {
+    display: flex;
+    gap: 20px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Poster */
+.movie-card img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Details */
+.details p {
+    margin: 5px 0;
+}
+
+/* Hover effect */
+.movie-card:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
